@@ -1,11 +1,11 @@
 '.text.html.php':
-	'Widget Title':
-	'prefix': 'pik-field-text'
-	'body': """
+	'Piklist Text Field':
+		'prefix': 'pik-field-text'
+		'body': """
 		piklist('field', array(
 			'type'    => 'text',
 			'field'   => '$1',
 			'label'   => '$2',
-			'add_more'  => true
+			'add_more'  => false
 		));
-	"""
+		"""
