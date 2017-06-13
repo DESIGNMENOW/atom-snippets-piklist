@@ -1,1 +1,1 @@
-# atom-snippets-piklist
+# Piklist Snippets for Atom
