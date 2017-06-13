@@ -1,0 +1,28 @@
+{
+  "name": "atom-snippets-piklist",
+  "main": "./lib/atom-snippets-piklist",
+  "version": "17.06.13",
+  "description": "Piklist Snippets for Atom",
+  "author": {
+    "name": "Tobi Franke",
+    "email": "git@designme.one",
+    "url": "https://designme.one"
+  },
+  "maintainers": [
+    {
+      "name": "Tobi Franke",
+      "email": "git@designme.one"
+    }
+  ],
+  "activationCommands": {
+    "atom-text-editor": [
+      "atom-snippets-piklist:toggle"
+    ]
+  },
+  "repository": "https://github.com/DESIGNMENOW/atom-snippets-piklist",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {}
+}
