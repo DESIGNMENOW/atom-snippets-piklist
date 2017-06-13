@@ -1,6 +1,16 @@
 '.text.html.php':
-	'Piklist Text Field':
-		'prefix': 'pik-field-text'
+	'Piklist Text Field Multiple':
+		'prefix': 'pik-field-text-multi'
+		'body': """
+		piklist('field', array(
+			'type'    => 'text',
+			'field'   => '$1',
+			'label'   => '$2',
+			'add_more'  => true
+		));
+		"""
+	'Piklist Text Field Single':
+		'prefix': 'pik-field-text-single'
 		'body': """
 		piklist('field', array(
 			'type'    => 'text',
